@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="icon" type="logo" href="images/Flux Hotel logo.jpeg">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <!-- Email js -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init({
+                publicKey: "idQ4gZ8l2i_BdBzZT",
+            });
+        })();
+    </script>
+
+    <link rel="stylesheet" href="style.css">
+    <title>Flux Hotel</title>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <a href="#">Flux Hotel</a>
+        </div>
+        <div class="navlist">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#serivices">services</a>
+            <a href="#rooms">Rooms</a>
+            <a href="#contact">Contact</a>
+        </div>
+        <div class="bar">
+            <i class="fas fa-bars"></i>
+        </div>
+    </header>
+    <!-- home section -->
+    <section class="home" id="home">
+        <!-- Swiper -->
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide home-1 hero">
+                    <div class="home-text">
+                        <h1>Discover our Modern <br> Luxurious Hotel</h1>
+                        <div class="btn">
+                            <a href="#">Explore More</a>
+                            <a href="#">Book A Room</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide home-2 hero">
+                    <div class="home-text">
+                        <h1>your comfort is our <br> concern</h1>
+                        <div class="btn">
+                            <a href="#">Explore More</a>
+                            <a href="#">Book A Room</a>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+    <!-- about section -->
+    <section class="about" id="about">
+
+        <div class="about-contant container">
+            <div class="about-text">
+                <h3>About Us</h3>
+                <h2>Welcom To <span>Flux Hotel</span></h2>
+                <p>A modern haven where luxury and comfort blend seamlessly. Located in the heart
+                    of the city, our hotel offers a perfect retreat for both business and leisure travelers. From
+                    stylish rooms and gourmet dining to state-of-the-art amenities, we’re committed to making your stay
+                    unforgettable.</p>
+                <div class="about-icon-contant">
+                    <div class="about-conatnt-col">
+                        <i class="fas fa-house"></i>
+                        <h4>104</h4>
+                        <p>Rooms</p>
+                    </div>
+                    <div class="about-conatnt-col">
+                        <i class="fas fa-users"></i>
+                        <h4>80</h4>
+                        <p>Staffs</p>
+                    </div>
+                    <div class="about-conatnt-col">
+                        <i class="fas fa-house"></i>
+                        <h4>800</h4>
+                        <p>Clients</p>
+                    </div>
+                </div>
+            </div>
+            <div class="about-img">
+                <img src="images/about-1.jpg" alt="">
+                <img src="images/about-2.jpg" alt="">
+                <img src="images/about-3.jpg" alt="">
+                <img src="images/about-4.jpg" alt="">
+            </div>
+        </div>
+
+    </section>
+    <!-- services section -->
+    <section class="serivices" id="serivices">
+        <div class="serivces-container container">
+            <div class="head">
+                <h2>Our <span>services</span></h2>
+            </div>
+            <div class="service-contant-row">
+                <div class="service-contant-col">
+                    <i class="fas fa-hotel"></i>
+                    <h3>Apartment & Rooms</h3>
+                    <p>At Flux Hotel, we offer a range of stylish accommodations designed for your ultimate comfort.
+                        Whether you’re here for a quick stay or an extended visit, our rooms and apartments provide the
+                        perfect blend of modern amenities and thoughtful design, ensuring a relaxing and memorable
+                        experience.</p>
+                </div>
+                <div class="service-contant-col">
+                    <i class="fas fa-utensils"></i>
+                    <h3>Food & Drinks</h3>
+                    <p>At Flux Hotel, we take pride in offering a diverse and vibrant culinary experience. Whether
+                        you’re in the mood for a gourmet meal, casual bites, or refreshing cocktails, our dining options
+                        cater to every palate and occasion.</p>
+                </div>
+                <div class="service-contant-col">
+                    <i class="fas fa-spa"></i>
+                    <h3>Fitness & Spa</h3>
+                    <p>At Flux Hotel, we believe in the importance of wellness and relaxation during your stay. Our
+                        state-of-the-art Fitness Center and luxurious Spa are designed to help you recharge, rejuvenate,
+                        and maintain your health routine while away from home.</p>
+                </div>
+                <div class="service-contant-col">
+                    <i class="fas fa-wine-glass"></i>
+                    <h3>Event & Party</h3>
+                    <p>At Flux Hotel, we specialize in hosting unforgettable events and parties that leave lasting
+                        impressions. Whether you're planning a corporate meeting, wedding reception, birthday
+                        celebration, or a private party, our versatile spaces and exceptional service ensure that every
+                        event is seamlessly executed.</p>
+                </div>
+                <div class="service-contant-col">
+                    <i class="fas fa-person-swimming"></i>
+                    <h3>Sports & Games</h3>
+                    <p> we understand the importance of staying active and entertained during your stay. That’s why we
+                        offer a variety of sports and games facilities to help you unwind, stay fit, and have fun.
+                        Whether you're a sports enthusiast or just looking for some casual recreation, we have something
+                        for everyone.</p>
+                </div>
+                <div class="service-contant-col">
+                    <i class="fas fa-dumbbell"></i>
+                    <h3>Gym & Yoga</h3>
+                    <p>we are committed to helping you maintain your wellness routine while you travel. Our fully
+                        equipped Gym and serene Yoga studio provide the perfect environment for both intense workouts
+                        and mindful relaxation, ensuring you stay fit and balanced throughout your stay.</p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- Rooms section -->
+    <section class="rooms" id="rooms">
+        <div class="room-container  container">
+            <div class="head">
+                <h2>Explore Our <span>Rooms</span></h2>
+            </div>
+            <div class="room-contant-row">
+                <div class="room-contant-col">
+                    <img src="images/room-1.jpg" alt="">
+                    <div class="room-text">
+                        <h3>Standard Room</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <div class="room-details">
+                            <h4>100$/Night</h4>
+                            <p>Our Standard Room is a perfect option for solo travelers or couples looking for a cozy,
+                                stylish space to unwind. These rooms offer all the essentials for a comfortable stay,
+                                with sleek design and modern conveniences.</p>
+                            <div class="room-btn">
+                                <a href="#">View Details</a>
+                                <a href="#">Book Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="room-contant-col">
+                    <img src="images/room-2.jpg" alt="">
+                    <div class="room-text">
+                        <h3>One Bedroom </h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <div class="room-details">
+                            <h4>199$/Night</h4>
+                            <p>For longer stays or those seeking a more home-like environment, our One-Bedroom Apartment
+                                provides all the comforts of modern living. Complete with a kitchen and separate living
+                                area, it’s perfect for guests who need more space and independence.</p>
+                            <div class="room-btn">
+                                <a href="#">View Details</a>
+                                <a href="#">Book Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="room-contant-col">
+                    <img src="images/room-3.jpg" alt="">
+                    <div class="room-text">
+                        <h3> Accessible Room</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <div class="room-details">
+                            <h4>200$/Night</h4>
+                            <p>Our Accessible Rooms are specially designed to cater to guests with mobility needs,
+                                offering all the comforts of our standard rooms with additional accessibility features.
+                            </p>
+                            <div class="room-btn">
+                                <a href="#">View Details</a>
+                                <a href="#">Book Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="room-contant-col">
+                    <img src="images/room-4.jpg" alt="">
+                    <div class="room-text">
+                        <h3>Family Room</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <div class="room-details">
+                            <h4>500$/Night</h4>
+                            <p>Designed for families or groups, our Family Rooms provide generous space and convenient
+                                features to ensure everyone enjoys a comfortable stay. These rooms are perfect for
+                                larger parties seeking a home-away-from-home experience.</p>
+                            <div class="room-btn">
+                                <a href="#">View Details</a>
+                                <a href="#">Book Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="room-contant-col">
+                    <img src="images/room-5.jpg" alt="">
+                    <div class="room-text">
+                        <h3>Deluxe Room</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <div class="room-details">
+                            <h4>1000$/Night</h4>
+                            <p>For added space and luxury, the Deluxe Room offers an upgraded experience with elegant
+                                décor and enhanced amenities. Ideal for those seeking a bit more comfort during their
+                                stay.</p>
+                            <div class="room-btn">
+                                <a href="#">View Details</a>
+                                <a href="#">Book Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="room-contant-col">
+                    <img src="images/room-6.jpg" alt="">
+                    <div class="room-text">
+                        <h3>Executive Suite</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <div class="room-details">
+                            <h4>600$/Night</h4>
+                            <p>For those seeking an elevated experience, our Executive Suites provide a spacious and
+                                luxurious retreat. Ideal for business travelers or guests looking for more room to
+                                relax, these suites feature a separate living area and enhanced amenities.</p>
+                            <div class="room-btn">
+                                <a href="#">View Details</a>
+                                <a href="#">Book Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- staffs  -->
+    <section class="staffs" id="staffs">
+        <div class="staff-container container">
+            <div class="head">
+                <h2>Get To Know Our <span>Staffs</span></h2>
+            </div>
+            <div class="staff-contant-row">
+                <div class="staff-contant-col">
+                    <img src="images/team-1.jpg" alt="">
+                    <h3>James Gadner</h3>
+                    <h2>Hotel Manager</h2>
+                    <div class="staffs-socials">
+                        <i class="fab fa-facebook"></i>
+                        <i class="fab fa-instagram"></i>
+                        <i class="fab fa-linkedin"></i>
+                        <i class="fab fa-twitter"></i>
+                    </div>
+                </div>
+                <div class="staff-contant-col">
+                    <img src="images/team-2.jpg" alt="">
+                    <h3>Patrick Dave</h3>
+                    <h2>Chef </h2>
+                    <div class="staffs-socials">
+                        <i class="fab fa-facebook"></i>
+                        <i class="fab fa-instagram"></i>
+                        <i class="fab fa-linkedin"></i>
+                        <i class="fab fa-twitter"></i>
+                    </div>
+                </div>
+                <div class="staff-contant-col">
+                    <img src="images/team-3.jpg" alt="">
+                    <h3>Louis James</h3>
+                    <h2>Hotel Cleaner</h2>
+                    <div class="staffs-socials">
+                        <i class="fab fa-facebook"></i>
+                        <i class="fab fa-instagram"></i>
+                        <i class="fab fa-linkedin"></i>
+                        <i class="fab fa-twitter"></i>
+                    </div>
+                </div>
+                <div class="staff-contant-col">
+                    <img src="images/team-4.jpg" alt="">
+                    <h3>Patricia Davies</h3>
+                    <h2>Hotel Secretary</h2>
+                    <div class="staffs-socials">
+                        <i class="fab fa-facebook"></i>
+                        <i class="fab fa-instagram"></i>
+                        <i class="fab fa-linkedin"></i>
+                        <i class="fab fa-twitter"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- testimoial section -->
+    <section class="testimoial">
+        <div class="testimoial-container container">
+            <div class="head">
+                <h2>Our Customer's <span>Testimony</span></h2>
+            </div>
+            <!-- Swiper -->
+            <div class="swiper myswiper">
+                <div class="swiper-wrapper testimoial-row">
+                    <div class="swiper-slide testimoial-col">
+                        <img src="images/testimonial-5.jpg" alt="">
+                        <div class="testimoial-text">
+                            <h3>Mohd Shahvej</h3>
+                            <p>"Flux Hotel exceeded all my expectations. From the moment I checked in, the staff made me
+                                feel like royalty. The rooms are immaculate, the food is delicious, and the spa is out
+                                of this world. I can't wait to come back!"</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide testimoial-col">
+                        <img src="images/testimonial-1.jpg" alt="">
+                        <div class="testimoial-text">
+                            <h3>Janet Bond</h3>
+                            <p>"Our family had an amazing stay at Flux Hotel! The Family Room was spacious, and the kids
+                                loved the pool and game room. We were so impressed with the thoughtful amenities
+                                provided for children. It truly made our vacation special."</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide testimoial-col">
+                        <img src="images/testimonial-2.jpg" alt="">
+                        <div class="testimoial-text">
+                            <h3>Albert Norh</h3>
+                            <p>"The hotel’s location was ideal for exploring the city, and the service was top-notch.
+                                The concierge helped us plan our itinerary, and we loved returning to the comfort of our
+                                Deluxe Room after a day of sightseeing. Highly recommended!"</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide testimoial-col">
+                        <img src="images/testimonial-3.jpg" alt="">
+                        <div class="testimoial-text">
+                            <h3>Desmand Owusu</h3>
+                            <p>"I booked a weekend at Flux Hotel for a much-needed spa getaway, and I couldn't be
+                                happier. The spa treatments were heavenly, and the entire experience was so
+                                rejuvenating. The hotel itself is beautiful, and the staff made me feel so welcome."</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide testimoial-col">
+                        <img src="images/testimonial-4.jpg" alt="">
+                        <div class="testimoial-text">
+                            <h3>James Attah</h3>
+                            <p>At Flux Hotel, guest satisfaction is our top priority. Whether you're here for business,
+                                relaxation, or a special occasion, we are dedicated to making your stay exceptional. We
+                                look forward to welcoming you!</p>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide testimoial-col">
+                        <img src="images/testimonial-6.jpg" alt="">
+                        <div class="testimoial-text">
+                            <h3>Patricia clarkson </h3>
+                            <p>"We chose Flux Hotel for our honeymoon, and it was the best decision ever! The Executive
+                                Suite was romantic, and the hotel surprised us with special touches throughout our stay.
+                                From the spa treatments to the dining, everything was perfect."</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </section>
+    <!-- contact section -->
+    <section class="contact" id="contact">
+        <div class="contact-container container">
+            <div class="head">
+                <h2>Contact <span> Us</span></h2>
+            </div>
+            <div class="contact-row">
+                <div class="contact-col">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9956.0093947597!2d9.696890858452775!3d51.40301153741151!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47bb310bf02a1dcb%3A0x79ae70fc3b9380e1!2sBiohotel%20Flux!5e0!3m2!1sen!2sin!4v1725438864126!5m2!1sen!2sin"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="contact-col">
+                    <form>
+                        <div class="input">
+                            <input type="text" id="name" placeholder="Enter Your Name Here...">
+                            <input type="email" id="email" placeholder="Enter Your Email Here...">
+                        </div>
+                        <textarea name="message" id="message" placeholder="Leave us a message"></textarea>
+                        <button type="submit" onclick="sendMail()">Send</button>
+                        <!-- <input type="submit" value="submit"> -->
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer section -->
+    <footer>
+        <div class="waves">
+            <div class="wave" id="wave1"></div>
+            <div class="wave" id="wave2"></div>
+            <div class="wave" id="wave3"></div>
+            <div class="wave" id="wave4"></div>
+        </div>
+        <ul class="social-icon">
+            <li><a href="#"> <i class="fab fa-facebook"></i></a></li>
+            <li><a href="#"> <i class="fab fa-instagram"></i></a></li>
+            <li><a href="#"> <i class="fab fa-linkedin"></i></a></li>
+            <li><a href="#"> <i class="fab fa-twitter"></i></a></li>
+        </ul>
+        <ul class="menu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Rooms</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        <p> &copy; 2024 Flux Hotel. All rights reserved.</p>
+    </footer>
+    <!-- Link gsap.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+        integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- Link Swiper's js -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
